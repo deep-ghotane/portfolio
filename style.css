@@ -1,0 +1,46 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#darkmode {
+  display: none;
+}
+
+#darkmodelabel {
+  position: fixed;
+  top: 100px;
+  left: 40px;
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+}
+
+header .container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .menu {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-section {
+  margin-top: 5rem;
+  max-height: 60vh;
+  padding-top: 10rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
